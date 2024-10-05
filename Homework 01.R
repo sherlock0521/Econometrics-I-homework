@@ -35,4 +35,7 @@ var.y <- Syy/n
 Sxy <- yT %*% M %*% x 
 cov.xy <- Sxy/n
 
+eigenvta_M = eigen(M)$vectors
+eigen_M = eigen(M)
+tr_M = sum(diag(eigenvta_M))
 
