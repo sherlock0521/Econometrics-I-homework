@@ -31,4 +31,10 @@ Beta4+Beta5=2
 比較限制條件下的SSE與無限制條件下的SSE
 第四題算出無限制下的R square跟 調整後的R square
 
->>>>>>> origin/main
+# Homework 06
+Yt = 2 + 3X_t + E_t 
+w)t = 1, 2, ... , T
+  X_t i.i.d. ~ N(3; 2) and E_t i.i.d. ~ N(0; 1).
+It can see that the OLS is unbiased and consistent from a repeat of 1000 trials.
+(a). Plot T = 100 for unbiasedness.
+(b). Plot, T = 30; 50; 100; 200; 500 for consistency.
