@@ -30,7 +30,7 @@ std = sqrt(diag(var))
 
 # Find t-ratio
 t_ratio = b / std
-outcome <- ifelse(abs(t_ratio) > 1.96, "reject H0", "Not reject H0")
+outcome = ifelse(abs(t_ratio) > 1.96, "reject H0", "Not reject H0")
 
 
 
